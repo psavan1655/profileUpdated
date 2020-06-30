@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+header {
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+  position: sticky;
+  top: 0;
+  background: #1d1d24;
+}
+
+nav {
+  min-height: 10vh;
+  margin: auto;
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: white;
+}
+
+.navicons {
+  margin-left: 5rem;
+  width: 150%;
+  display: flex;
+  flex: 1;
+  align-items: flex-start;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.navicons-div {
+  margin-inline-start: -75rem;
+  transform: scale(1.2);
+}
+
+.navicons a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navicons a:hover {
+  background: linear-gradient(to right top, #f288e2, #487eb0);
+  padding: 0.3rem;
+  transition: all 0.2s ease-out;
+}
+
+.navtitle {
+  min-height: 10vh;
+  width: 120%;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-around;
+  color: #ffffff;
+  font-size: 1rem;
+  font-family: "Kanit", sans-serif;
+  list-style: none;
+  transform: scale(1.5);
+}
+
+.navtitle a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navtitle-div {
+  margin-inline-end: 5rem;
+  color: white;
+}
+
+.navtitle a:hover {
+  background: linear-gradient(to right top, #f288e2, #487eb0);
+  padding: 0.3rem;
+  transition: all 0.2s ease-out;
+}
+
+section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section h2 {
+  font-size: 100px;
+}
+
+.home {
+  background: linear-gradient(to right top, #f288e2, #487eb0);
+}
+
+.projects {
+  background: linear-gradient(to right top, #688bb9, #5ec89c);
+}
+
+.contact {
+  background: linear-gradient(to right top, #f288e2, #b0b95b);
+}
+
+/* .bubble {
+  z-index: -2;
+  background: linear-gradient(to right top, #f288e2, #487eb0);
+  transform: scale(2);
+  transition: all 0.1s ease-in-out;
+   background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000; 
+}
+
+div .bubble:hover {
+  border-bottom: 5px solid #27b3b3;
+  transition: all 1s ease-in-out;
+} */
